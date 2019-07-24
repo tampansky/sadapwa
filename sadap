@@ -38,66 +38,64 @@ sleep 0.25
 }
 #INTRO
 intro(){
-    echo -e $green" __           _               __    __      "
+    echo -e $okegreen" __           _               __    __      "
 sleep 0.25
-    echo -e $green"/ _\ __ _  __| | __ _ _ __   / / /\ \ \__ _ "
+    echo -e $okegreen"/ _\ __ _  __| | __ _ _ __   / / /\ \ \__ _ "
 sleep 0.25
-    echo -e $green"\ \ / _  |/ _  |/ _  |  _ \  \ \/  \/ / _  |"
+    echo -e $okegreen"\ \ / _  |/ _  |/ _  |  _ \  \ \/  \/ / _  |"
 sleep 0.25
-    echo -e $green"_\ \ (_| | (_| | (_| | |_) |  \  /\  / (_| |"
+    echo -e $okegreen"_\ \ (_| | (_| | (_| | |_) |  \  /\  / (_| |"
 sleep 0.25
-    echo -e $green"\__/\__,_|\__,_|\__,_| .__/    \/  \/ \__,_|"
+    echo -e $okegreen"\__/\__,_|\__,_|\__,_| .__/    \/  \/ \__,_|"
 sleep 0.25
-    echo -e $green"                     |_|                    "
+    echo -e $okegreen"                     |_|                    "
 sleep 1
-    echo -e $green"||========================================||"
+    echo -e $okegreen"||========================================||"
     sleep 0.25
-    echo -e $green"||=WELCOME TO TOOLS SADAP WA BY Tampansky=||"
+    echo -e $okegreen"||=WELCOME TO TOOLS SADAP WA BY Tampansky=||"
     sleep 0.25
-    echo -e $green"||========================================||"
+    echo -e $okegreen"||========================================||"
     sleep 0.25
     sadap
 }
 sadap(){
-    echo -e $green"///////////////////////////"
+    echo -e $okegreen"///////////////////////////"
     sleep 0.25
-    echo -e $green"    Author : Tampansky   "
+    echo -e $okegreen"    Author : Tampansky   "
     sleep 0.25
-    echo -e $green"    Team : PSCT OFFIC      "
+    echo -e $okegreen"    Team : PSCT OFFIC      "
     sleep 0.25
-    echo -e $green"Thanks To All Member PSCT"
+    echo -e $okegreen"Thanks To All Member PSCT"
     sleep 0.25
-    echo -e $green"//////////////////////////"
+    echo -e $okegreen"//////////////////////////"
     sleep 1
-    echo -e $green"Masukan Target Mu!1!1!1"
+    echo -e $okegreen"Masukan Target Mu!1!1!1"
     read -p ">" u
-    echo -e $green"Menganalisa..." 
+    echo -e $okegreen"Menganalisa..." 
     sleep 2
     clear
-    echo -e $green"NOMOR BIASA : $u"
-    echo -e $green"NOMOR WA : +62$u"
+    echo -e $okegreen"NOMOR BIASA : $u"
+    echo -e $okegreen"NOMOR WA : +62$u"
     sleep 1
     echo
     echo -e "1.Dump Chat"
     echo -e "2.Keluar"
     read -p ">" p 
     if [ $p = "1" ]; then 
-    echo -e $green "SEDANG MASA PERBARUAN TQ."
+    echo -e $okegreen "SEDANG MASA PERBARUAN TQ."
     else
     echo "SYNTAX EROR 404"
     fi 
-    mulai
 
     if [ $p = "2" ]; then
-    echo -e $green"Thanks To Play My Tools"
+    echo -e $okegreen"Thanks To Play My Tools"
     else
     echo "SYNTAX EROR 404"
     fi
-    mulai
 
 }
-echo -e $green"WELCOME TO SadapSkyWA"
-echo -e $green"LANJUT KE TOOLSNYA?"
+echo -e $okegreen"WELCOME TO SadapSkyWA"
+echo -e $okegreen"LANJUT KE TOOLSNYA?"
 read -p "y/n?" tod
 if [ $tod = "y" ]; then 
 intro

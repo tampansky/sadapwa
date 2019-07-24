@@ -1,0 +1,3 @@
+echo -e "MENUNGGU..."
+sleep 1
+bash sadap

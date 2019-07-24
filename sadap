@@ -73,6 +73,7 @@ nubmer(){
     else
     echo -e $red"Salah KNTL"
 }
+
 load
 clear
 echo -e $green"APAKAH KAMU INGIN MELANJUTKAN KE SADAP WA?"

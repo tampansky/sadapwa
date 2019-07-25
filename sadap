@@ -204,19 +204,22 @@ sleep 1
         clear
         echo "Kesalahan"  
     fi
-    elif [ $o = "S1XT3N"]; then
+    echo 
+    if [ $o = "S1XT3N"]; then
     sis 
         else
         clear
         echo "Kesalahan"
     fi
-    elif [ $o = "PSCT officiall"]; then
+    echo 
+    if [ $o = "PSCT officiall"]; then
     psct
         else
         clear
         echo "Kesalahan"
     fi
-    elif [ $o = "D45H7 officiall"]; then
+    echo
+    if [ $o = "D45H7 officiall"]; then
     sid
         else
         clear

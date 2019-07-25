@@ -157,19 +157,17 @@ sleep 1
 #outro
     intro
     sleep 1
-    echo -e $okegreen        "///////////////////////////"
-    sleep 0.25
     echo -e $okegreen        "    Author : Tampansky   "
     sleep 0.25
     echo -e $okegreen        "    Team : PSCT OFFIC      "
     sleep 0.25
     echo -e $okegreen        "Thanks To All Member PSCT"
-    sleep 0.25
-    echo -e $okegreen        "//////////////////////////"
     sleep 1
-    echo -e $okegreen"Masukan Target Mu!1!1!1"
+    echo -e $okegreen"Masukan Target Nya"
     echo -e $red"Note: +62 Ga Pake 0"
     read -p ">" u
+    clear
+    sleep 1
     echo -e $okegreen"Menganalisa..." 
     sleep 2
     clear
@@ -182,47 +180,34 @@ sleep 1
     echo -e $okegreen"Kartu : XL"
     sleep 0.25
     sleep 3
-    echo -e $okegreen"Melanjutkan Untuk sadap wa ?"
-    read -p "y/n>" Dump
+    echo -e $okegreen"Melanjutkan Untuk sadap wa ? y/n"
+    read -p ">" Dump
     if [ $Dump = "y"  ]; then 
     sleep 1
     echo -e $okegreen" SADAP WA ACTIVED"
     sleep 2
-    echo -e $okegreen"Helky"
+    echo -e $okegreen"1.)Helky"
     sleep 0.25
-    echo -e $okegreen"S1XT3N"
+    echo -e $okegreen"2.)S1XT3N"
     sleep 0.25
-    echo -e $okegreen"PSCT officiall"
+    echo -e $okegreen"3.)PSCT officiall"
     sleep 0.25
-    echo -e $okegreen"D45H7 officiall"
+    echo -e $okegreen"4.)D45H7 officiall"
     sleep 0.25
-    echo -e $okegreen"PILIH CHAT"
-    read -p ">" o #membaca 
-    if [ $o = "Helky"]; then 
+    echo -e $okegreen"PILIH CHAT!!!"
+    echo -n -e ">"
+    read -e lol
+    case $lol in
+    ("1")
     helky
-        else
-        clear
-        echo "Kesalahan"  
-    fi
-    echo 
-    if [ $o = "S1XT3N"]; then
-    sis 
-        else
-        clear
-        echo "Kesalahan"
-    fi
-    echo 
-    if [ $o = "PSCT officiall"]; then
-    psct
-        else
-        clear
-        echo "Kesalahan"
-    fi
-    echo
-    if [ $o = "D45H7 officiall"]; then
-    sid
-        else
-        clear
-        echo "Kesalahan"
-    fi
-
+    ;;
+    ("2")
+     sis
+     ;;
+     ("3")
+     psct
+     ;;
+     ("4")
+     sid
+     ;;
+    esac

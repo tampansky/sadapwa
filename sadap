@@ -38,6 +38,7 @@ sleep 0.25
 }
 #INTRO
 intro(){
+    clear
     echo -e $okegreen" __           _               __    __      "
 sleep 0.25
     echo -e $okegreen"/ _\ __ _  __| | __ _ _ __   / / /\ \ \__ _ "
@@ -70,11 +71,12 @@ sadap(){
     echo -e $okegreen"//////////////////////////"
     sleep 1
     echo -e $okegreen"Masukan Target Mu!1!1!1"
+    echo -e $okegreen"Note: +62 Ga Pake 0"
     read -p ">" u
     echo -e $okegreen"Menganalisa..." 
     sleep 2
     clear
-    echo -e $okegreen"NOMOR BIASA : $u"
+    echo -e $okegreen"NOMOR BIASA : 0$u"
     echo -e $okegreen"NOMOR WA : +62$u"
     sleep 1
     echo
@@ -82,17 +84,111 @@ sadap(){
     echo -e "2.Keluar"
     read -p ">" p 
     if [ $p = "1" ]; then 
-    echo -e $okegreen "SEDANG MASA PERBARUAN TQ."
-    else
-    echo "SYNTAX EROR 404"
-    fi 
-
+    echo -e $okegreen "Menunggu Hasil..."
+    sleep 1
+    clear
+    echo -e $okegreen "NOMOR : +62$u"
+    sleep 1
+    echo -e $okegreen "SERING DIHUBUNGI!"
+    sleep 1
+    echo -e $okegreen "S1XT3N"
+    sleep 1
+    echo -e $okegreen "PSCT Officiall"
+    sleep 1
+    echo -e $okegreen "D45H7 Officiall"
+    sleep 1
+    echo -e $okegreen "Helky"
+    echo -e $okegreen "PILIH CHAT"
+    read -p ">" sad 
+    if [ $sad = "S1XT3N" ]; then
+echo -e $okegreen"[09:50, 7/25/2019] 10 Mey: inurl:/kontributor site:"
+echo -e $okegreen"[09:50, 7/25/2019] 10 Mey: Tuh dork kntl"
+echo -e $okegreen"[10:03, 7/25/2019] S1XT33N: Okeh tol"
+echo -e $okegreen"[10:04, 7/25/2019] 10 Mey: ye su"
+echo -e $okegreen"[10:04, 7/25/2019] 10 Mey: kembangin dork nya biar vuln"
+echo -e $okegreen"[10:06, 7/25/2019] S1XT33N: Filenya?"
+echo -e $okegreen"[10:06, 7/25/2019] S1XT33N: Png?"
+echo -e $okegreen"[10:06, 7/25/2019] 10 Mey: hmm"
+echo -e $okegreen"[10:06, 7/25/2019] 10 Mey: seterah webnya su"
+echo -e $okegreen"[10:07, 7/25/2019] S1XT33N: Okok"
+echo -e $okegreen"[10:07, 7/25/2019] S1XT33N: Nyoba dulu"
+echo -e $okegreen"[10:08, 7/25/2019] 10 Mey: ye"
+echo -e $okegreen"[10:32, 7/25/2019] S1XT33N: 😕"
+echo -e $okegreen"[10:34, 7/25/2019] 10 Mey: http://indox.mywebcommunity.org/# 
+ini Cuk"
+echo -e $okegreen"[10:35, 7/25/2019] S1XT33N: Uah"
+echo -e $okegreen"[10:36, 7/25/2019] S1XT33N: http://welcomenightclub.everton.com/
+:v"
+echo -e $okegreen"[10:36, 7/25/2019] 10 Mey: :v"
+echo -e $okegreen"[10:37, 7/25/2019] 10 Mey: Nick w Ga ada Su"
+echo -e $okegreen"[10:37, 7/25/2019] 10 Mey: Take Over Github :v"
+echo -e $okegreen"[11:05, 7/25/2019] S1XT33N: 🤣"
+echo -e $okegreen"[11:05, 7/25/2019] S1XT33N: 🤣"
+echo -e $okegreen"[12:19, 7/25/2019] 10 Mey: awokoaw su"
+    if [ $sad = "PSCT Officiall" ]; then 
+echo -e $okegreen'[09:00, 7/25/2019] 10 Mey: Matery?'
+echo -e $okegreen'[09:00, 7/25/2019] 10 Mey: Yang setuju like ;b'
+echo -e $okegreen'[09:03, 7/25/2019] +62 812-4906-3162: I like it🤤'
+echo -e $okegreen'[09:03, 7/25/2019] +62 812-4906-3162: Gassssddd'
+echo -e $okegreen'[09:03, 7/25/2019] +62 812-4906-3162: Materi apa nih?'
+echo -e $okegreen'[09:03, 7/25/2019] 10 Mey: Matery apa ?'
+echo -e $okegreen'[09:04, 7/25/2019] +62 812-4906-3162: How to make trojan virus with android notepad :v'
+echo -e $okegreen'[09:05, 7/25/2019] +62 812-4906-3162: And how to make payload without metasploit :V'
+echo -e $okegreen'[09:07, 7/25/2019] +62 852-3637-7016: How to make a jembud lurus :v'
+echo -e $okegreen'[09:07, 7/25/2019] +62 812-4906-3162: Use makarizo dude :V'
+echo -e $okegreen'[09:07, 7/25/2019] +62 852-3637-7016: And how to make a jembud Panjank'
+echo -e $okegreen'[09:07, 7/25/2019] +62 812-4906-3162: Use shampoo metal:V'
+echo -e $okegreen'[09:07, 7/25/2019] +62 852-3637-7016: >:V S3 PERTOKOAN'
+echo -e $okegreen'[09:08, 7/25/2019] +62 812-4906-3162: MANTAP ANJINK >:V'
+echo -e $okegreen'[09:08, 7/25/2019] +62 852-3637-7016: >:V ANJENK'
+echo -e $okegreen'[09:08, 7/25/2019] +62 812-4906-3162: Woakaoakaoakaok >:V'
+echo -e $okegreen'[09:13, 7/25/2019] 10 Mey: How to create people ?'
+echo -e $okegreen'[09:13, 7/25/2019] 10 Mey: Awoakwoakwok'
+echo -e $okegreen'[09:15, 7/25/2019] +62 852-3637-7016: :v Akwkaiwkw'
+echo -e $okegreen'[09:16, 7/25/2019] 10 Mey: Awoakeosk'
+echo -e $okegreen'[09:16, 7/25/2019] +62 812-4906-3162: Zter :v'
+echo -e $okegreen'[09:17, 7/25/2019] 10 Mey: @+62 852-3637-7016 ini pro nih'
+echo -e $okegreen'[09:18, 7/25/2019] +62 852-3637-7016: W ga tau apa apa :v'
+echo -e $okegreen'[09:19, 7/25/2019] 10 Mey: Si clod ? Jadi gamers'
+    if [ $sad = "D45H7 Officiall" ]; then 
+echo -e $okegreen"[12:09, 7/25/2019] Arya-kun: Akun mati"
+echo -e $okegreen"[12:10, 7/25/2019] +62 823-5248-2328: 😅😅"
+echo -e $okegreen"[12:11, 7/25/2019] Arya-kun: Di sini mem lama D45H7 tolong angkat jari 👆"
+echo -e $okegreen"[12:11, 7/25/2019] +62 895-3911-36695: 🖕🏼"
+echo -e $okegreen"[12:12, 7/25/2019] +62 823-5248-2328: bukan jari tengah juga kaleee🤦🏻‍♂"
+echo -e $okegreen"[12:12, 7/25/2019] +62 895-3911-36695: Oh salah ya 🤣 yaudah maap🙁"
+echo -e $okegreen"[12:12, 7/25/2019] +62 895-3911-36695: 👆🏼"
+echo -e $okegreen"[12:13, 7/25/2019] +62 823-5248-2328: nahhh"
+echo -e $okegreen"[12:13, 7/25/2019] Arya-kun: Hwhw"
+echo -e $okegreen"[12:13, 7/25/2019] Arya-kun: @+62 856-9234-8975 jugak ya?🤔"
+echo -e $okegreen"[12:14, 7/25/2019] +62 895-3911-36695: Udah ga aktif maybe"
+echo -e $okegreen"[12:14, 7/25/2019] Arya-kun: Hmm🤔"
+echo -e $okegreen"[12:15, 7/25/2019] +62 895-3911-36695: Jarang nongol juga dia"
+echo -e $okegreen"[12:21, 7/25/2019] +62 812-3829-9995: ."
+echo -e $okegreen"[12:22, 7/25/2019] +62 823-5248-2328: mungkin dah keciduk.. 😁"
+echo -e $okegreen"[12:28, 7/25/2019] +62 897-5591-930: MATEMATIKA"
+echo -e $okegreen"[12:29, 7/25/2019] +62 895-6151-14130: Gw mem baru om😩"
+    if [ $sad = "Helky" ]; then 
+echo -e $okegreen'[10:10, 7/25/2019] 10 Mey: http://shop-mobi.mygamesonline.org/sky.php
+Mau TUTOR INI ?'
+echo -e $okegreen'[10:11, 7/25/2019] Helky: Mau sky tapi ini create domain gk?'
+echo -e $okegreen'[10:11, 7/25/2019] 10 Mey: Enggak :v'
+echo -e $okegreen'[10:11, 7/25/2019] Helky: Bagus kalo engga😍'
+echo -e $okegreen'[10:11, 7/25/2019] Helky: Ya udh bahan apa aja yang harus di siapin 🥺'
+echo -e $okegreen'[10:12, 7/25/2019] 10 Mey: Ye'
+echo -e $okegreen'[10:13, 7/25/2019] 10 Mey: awardspace.com'
+echo -e $okegreen'registrasi > masuk ke domain/subdomain > Registrasi subdomainya > Buka File Maneger And Done :v'
+echo -e $okegreen'[10:13, 7/25/2019] Helky: Yups🥺'
+echo -e $okegreen'[10:13, 7/25/2019] Helky: Njir :v create domain lagi :v'
+echo -e $okegreen'[10:13, 7/25/2019] 10 Mey: Ya'
+echo -e $okegreen'[10:14, 7/25/2019] 10 Mey: Ywdh gas tuh'
+echo -e $okegreen'[10:14, 7/25/2019] Helky: Woke wait :v'
+echo -e $okegreen'[10:15, 7/25/2019] Helky: Itu free domain?'
+echo -e $okegreen'[10:15, 7/25/2019] Helky: Sampai berapa domain freenya?'
+echo -e $okegreen'[10:16, 7/25/2019] 10 Mey: 1'
+echo -e $okegreen'[10:16, 7/25/2019] 10 Mey: subdomainya 3'
     if [ $p = "2" ]; then
     echo -e $okegreen"Thanks To Play My Tools"
-    else
-    echo "SYNTAX EROR 404"
-    fi
-
 }
 echo -e $okegreen"WELCOME TO SadapSkyWA"
 echo -e $okegreen"LANJUT KE TOOLSNYA?"
@@ -100,5 +196,5 @@ read -p "y/n?" tod
 if [ $tod = "y" ]; then 
 intro
 else 
-echo -e "TOLOOOOOONG KIAMATTT!1!1!1!"
+echo -e $okegreen"TOLOOOOOONG KIAMATTT!1!1!1!"
 fi

@@ -164,7 +164,7 @@ sleep 1
     echo -e $okegreen        "Thanks To All Member PSCT"
     sleep 1
     echo -e $okegreen"Masukan Target Nya"
-    echo -e $red"Note: +62 Ga Pake 0"
+    echo -e $red"Note: +62 Ga Pake 0$okegreen"
     read -p ">" u
     clear
     sleep 1
@@ -182,14 +182,6 @@ sleep 1
     sleep 3
     echo -e $okegreen"Melanjutkan Untuk sadap wa ? y/n"$okegreen
     read -p ">" Dump
-    if [ $Dump = "y"  ]; then 
-    sha 
-    else
-    echo -e "kesalahan"
-    sleep 1 
-    clear
-    fi 
-    sha(){
     sleep 1
     echo -e $okegreen" SADAP WA ACTIVED"
     sleep 2
@@ -218,4 +210,3 @@ sleep 1
      sid
      ;;
     esac
-    }

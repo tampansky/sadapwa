@@ -180,9 +180,16 @@ sleep 1
     echo -e $okegreen"Kartu : XL"
     sleep 0.25
     sleep 3
-    echo -e $okegreen"Melanjutkan Untuk sadap wa ? y/n"
+    echo -e $okegreen"Melanjutkan Untuk sadap wa ? y/n"$okegreen
     read -p ">" Dump
     if [ $Dump = "y"  ]; then 
+    sha 
+    else
+    echo -e "kesalahan"
+    sleep 1 
+    clear
+    fi 
+    sha(){
     sleep 1
     echo -e $okegreen" SADAP WA ACTIVED"
     sleep 2
@@ -211,3 +218,4 @@ sleep 1
      sid
      ;;
     esac
+    }

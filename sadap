@@ -85,6 +85,14 @@ sadap(){
     read -p ">" p 
     if [ $p = "1" ]; then 
     echo -e $okegreen "Menunggu Hasil..."
+    load
+    clear
+    lod
+    else
+    echo -e $okegreen"SELAMAT TQ"
+    fi
+}
+lod(){
     sleep 1
     clear
     echo -e $okegreen "NOMOR : +62$u"
@@ -101,26 +109,24 @@ sadap(){
     echo -e $okegreen "PILIH CHAT"
     read -p ">" sad 
     if [ $sad = "S1XT3N" ]; then
-echo -e $okegreen"[09:50, 7/25/2019] 10 Mey: inurl:/kontributor site:"
-echo -e $okegreen"[09:50, 7/25/2019] 10 Mey: Tuh dork kntl"
-echo -e $okegreen"[10:03, 7/25/2019] S1XT33N: Okeh tol"
-echo -e $okegreen"[10:04, 7/25/2019] 10 Mey: ye su"
-echo -e $okegreen"[10:04, 7/25/2019] 10 Mey: kembangin dork nya biar vuln"
-echo -e $okegreen"[10:06, 7/25/2019] S1XT33N: Filenya?"
-echo -e $okegreen"[10:06, 7/25/2019] S1XT33N: Png?"
-echo -e $okegreen"[10:06, 7/25/2019] 10 Mey: hmm"
-echo -e $okegreen"[10:06, 7/25/2019] 10 Mey: seterah webnya su"
-echo -e $okegreen"[10:07, 7/25/2019] S1XT33N: Okok"
-echo -e $okegreen"[10:07, 7/25/2019] S1XT33N: Nyoba dulu"
-echo -e $okegreen"[10:08, 7/25/2019] 10 Mey: ye"
-echo -e $okegreen"[10:32, 7/25/2019] S1XT33N: 😕"
-echo -e $okegreen"[10:34, 7/25/2019] 10 Mey: http://indox.mywebcommunity.org/# 
-ini Cuk"
-echo -e $okegreen"[10:35, 7/25/2019] S1XT33N: Uah"
-echo -e $okegreen"[10:36, 7/25/2019] S1XT33N: http://welcomenightclub.everton.com/
-:v"
-echo -e $okegreen"[10:36, 7/25/2019] 10 Mey: :v"
-echo -e $okegreen"[10:37, 7/25/2019] 10 Mey: Nick w Ga ada Su"
+    echo -e $okegreen"[09:50, 7/25/2019] 10 Mey: inurl:/kontributor site:"
+    echo -e $okegreen"[09:50, 7/25/2019] 10 Mey: Tuh dork kntl"
+    echo -e $okegreen"[10:03, 7/25/2019] S1XT33N: Okeh tol"
+   echo -e $okegreen"[10:04, 7/25/2019] 10 Mey: ye su"
+   echo -e $okegreen"[10:04, 7/25/2019] 10 Mey: kembangin dork nya biar vuln"
+   echo -e $okegreen"[10:06, 7/25/2019] S1XT33N: Filenya?"
+   echo -e $okegreen"[10:06, 7/25/2019] S1XT33N: Png?"
+   echo -e $okegreen"[10:06, 7/25/2019] 10 Mey: hmm"
+   echo -e $okegreen"[10:06, 7/25/2019] 10 Mey: seterah webnya su"
+   echo -e $okegreen"[10:07, 7/25/2019] S1XT33N: Okok"
+   echo -e $okegreen"[10:07, 7/25/2019] S1XT33N: Nyoba dulu"
+   echo -e $okegreen"[10:08, 7/25/2019] 10 Mey: ye"
+   echo -e $okegreen"[10:32, 7/25/2019] S1XT33N: 😕"
+   echo -e $okegreen"[10:34, 7/25/2019] 10 Mey: http://indox.mywebcommunity.org/# ini Cuk"
+   echo -e $okegreen"[10:35, 7/25/2019] S1XT33N: Uah"
+   echo -e $okegreen"[10:36, 7/25/2019] S1XT33N: http://welcomenightclub.everton.com/ :v"
+   echo -e $okegreen"[10:36, 7/25/2019] 10 Mey: :v"
+   echo -e $okegreen"[10:37, 7/25/2019] 10 Mey: Nick w Ga ada Su"
 echo -e $okegreen"[10:37, 7/25/2019] 10 Mey: Take Over Github :v"
 echo -e $okegreen"[11:05, 7/25/2019] S1XT33N: 🤣"
 echo -e $okegreen"[11:05, 7/25/2019] S1XT33N: 🤣"
@@ -186,10 +192,9 @@ echo -e $okegreen'[10:14, 7/25/2019] Helky: Woke wait :v'
 echo -e $okegreen'[10:15, 7/25/2019] Helky: Itu free domain?'
 echo -e $okegreen'[10:15, 7/25/2019] Helky: Sampai berapa domain freenya?'
 echo -e $okegreen'[10:16, 7/25/2019] 10 Mey: 1'
-echo -e $okegreen'[10:16, 7/25/2019] 10 Mey: subdomainya 3'
-    if [ $p = "2" ]; then
-    echo -e $okegreen"Thanks To Play My Tools"
+  echo -e $okegreen'[10:16, 7/25/2019] 10 Mey: subdomainya 3'
 }
+
 echo -e $okegreen"WELCOME TO SadapSkyWA"
 echo -e $okegreen"LANJUT KE TOOLSNYA?"
 read -p "y/n?" tod
